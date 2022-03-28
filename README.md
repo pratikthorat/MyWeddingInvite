@@ -19,7 +19,7 @@ With the divine grace of the almighty, inviting you and your family to Pratik's 
 ```js
 const newCouple = "Pratik & Megha";
 
-// Feb 14, 2021
+// Apr 24, 2022
 const weddingDate = new Date(2022, 04, 24);
 
 // Wedding venue: -  https://goo.gl/maps/BZVS1hy9Bd7Hx1Cv7
