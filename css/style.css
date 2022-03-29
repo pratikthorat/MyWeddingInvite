@@ -468,6 +468,10 @@ body {
     margin-bottom: 10px;
 }
 
+.title h1 {
+    font-family: "Amita", cursive;
+}
+
 #time {
     width: auto;
     height: auto;
