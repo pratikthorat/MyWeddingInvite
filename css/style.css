@@ -574,6 +574,10 @@ body {
     margin: 10px;
 }
 
+.footer p {
+    font-size: 30px;
+    margin: 0px;
+}
 .phone {
     color: #874562;
 }
