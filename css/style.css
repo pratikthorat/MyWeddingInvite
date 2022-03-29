@@ -472,6 +472,10 @@ body {
     font-family: "Amita", cursive;
 }
 
+.title p {
+    font-family: "Noto Serif Devanagari", serif;
+}
+
 #time {
     width: auto;
     height: auto;
