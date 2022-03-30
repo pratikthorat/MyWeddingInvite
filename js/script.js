@@ -18,7 +18,7 @@
 
 })(jQuery);
 
-$(document).on('onload', function(){
+$(document).ready(function() {
     document.getElementById("my_audio").play();
     console.log('Shaadi me zaroor aana');
 });
