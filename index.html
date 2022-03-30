@@ -182,15 +182,10 @@
        <br>   
 
        <div class="video-container">
-         <div class="video2" data-video = "OeApvAfdzFk"
-         data-startseconds = "00"
-         data-endseconds = "23"
+         <div class="video2" data-video = "bZ6Ds-cu820"
          data-height = "480"
-         data-width = "640"
+         data-width = "640"        
          id = "youtube-player">
-           
-
-
          </div>
 
 
@@ -249,7 +244,7 @@
       <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
       <script src='https://cdn.jsdelivr.net/gh/timoschaefer/jQuery-Sakura/jquery-sakura.min.js'></script>
       <script  src="./js/script.js"></script>
-      <script src="/path/to/flickity.pkgd.min.js"></script>
+      <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
       <script src="https://www.youtube.com/iframe_api"></script>
     <script type="text/javascript">
@@ -262,9 +257,12 @@
             'onReady': function(e) {
               e.target.cueVideoById({
                 videoId: ctrlq.dataset.video,
-                startSeconds: ctrlq.dataset.startseconds,
-                endSeconds: ctrlq.dataset.endseconds
               });
+            },
+            'onStateChange': function(e) {
+              if (e.data == YT.PlayerState.PLAYING) {
+                pauseAudio(); 
+              }
             }
           }
         });

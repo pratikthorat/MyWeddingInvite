@@ -1,20 +1,20 @@
 <p align="center"><a href="https://www.sarthakj.me/WeddingEvite/"><img src="./assets/wedding.gif" width="150px" height="150px"/></a></p>
-<h1 align="center"><a href="https://pratikmegha.netlify.app/assets/SI.pdf">Wedding Invitation</a> :ring: <br> <br> SAVE THE DATE: 24th Apr, 2022 <br> <a href="https://pratikmegha.netlify.app/">Website</a></h1>
+<h1 align="center"><a href="https://pratikmeghawedding.netlify.app/assets/SI.pdf">Wedding Invitation</a> :ring: <br> <br> SAVE THE DATE: 24th Apr, 2022 <br> <a href="https://pratikmeghawedding.netlify.app/">Website</a></h1>
 
 ## Wedding Invitation :ring:
 
 <details>
   <summary><strong>View Invitation</strong></summary>
-  <a href="https://pratikmegha.netlify.app/"><img src="./assets/img/InviteMain.png" /></a>
+  <a href="https://pratikmeghawedding.netlify.app/"><img src="./assets/img/InviteMain.png" /></a>
 </details>
 
 With the divine grace of the almighty, inviting you and your family to Pratik's wedding to be held on **24th April 2022 at [Dwarka Mangal Karayalaya](https://goo.gl/maps/BZVS1hy9Bd7Hx1Cv7), Dahigaon Bolka, Maharashtra 423603 from 12:30 PM** onwards.
 
--   [Download](https://pratikmegha.netlify.app/assets/thoratkanadeweddinginvitation.jpeg) the Invitation card
+-   [Download](https://pratikmeghawedding.netlify.app/assets/thoratkanadeweddinginvitation.jpeg) the Invitation card
 
 -   Find [venue](https://goo.gl/maps/BZVS1hy9Bd7Hx1Cv7) on Google map
 
--   Visit the [website](https://pratikmegha.netlify.app) for more details
+-   Visit the [website](https://pratikmeghawedding.netlify.app) for more details
 
 ```js
 const newCouple = "Pratik & Megha";
@@ -32,7 +32,7 @@ const weddingVenue = new Location(
 
     // your presence is requested
     new Wedding().acceptInvitation(
-        window.open("https://pratikmegha.netlify.app/")
+        window.open("https://pratikmeghawedding.netlify.app/")
     );
 })();
 ```
