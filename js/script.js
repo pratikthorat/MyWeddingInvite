@@ -63,8 +63,7 @@ var x = setInterval(function () {
         clearInterval(x);
         document.getElementById("time").innerHTML =
             "Wedding Completed !! See The best Captured Moments ";
-        document.getElementById("time").href =
-            "https://photos.app.goo.gl/Wn9PRK7FMpxBKF5s6/";
+        document.getElementById("time").href = "https://youtu.be/iNjtSsFW6NE";
         document.getElementById("time").target = "_blank";
     }
 }, 1000);
